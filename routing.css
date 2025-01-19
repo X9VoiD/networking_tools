@@ -1,0 +1,189 @@
+#routing-root {
+    display: flex;
+    justify-content: center;
+}
+
+#routing-root img {
+    width: 1200px;
+}
+
+#routing-img-container {
+    position: relative;
+}
+
+.textbox-container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-content: center;
+}
+
+.textbox-container > p:first-child {
+    text-align: center;
+    margin-bottom: 4px;
+    grid-column: 1 / 3;
+}
+
+.textbox-container input {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.textbox-container.vertical {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.textbox {
+    width: 40px;
+    font-size: 11px;
+    font-family: monospace;
+}
+
+.textbox-container.long input {
+    width: 126px;
+}
+
+#configuration {
+    top: 0px;
+    left: 0px;
+}
+
+#network-a {
+    top: -3px;
+    left: 314px;
+}
+
+#network-b {
+    top: -3px;
+    left: 675px;
+}
+
+#network-c {
+    top: 78px;
+    left: 499px;
+}
+
+#network-d {
+    top: 195px;
+    left: 93px;
+}
+
+#network-e {
+    top: 195px;
+    left: 884px;
+}
+
+#r1-up {
+    top: 81px;
+    left: 353px;
+}
+
+#r1-right {
+    top: 126px;
+    left: 406px;
+}
+
+#r1-ethernet {
+    top: 141px;
+    left: 307px;
+}
+
+#r2-left {
+    top: 4px;
+    left: 447px;
+}
+
+#r2-right {
+    top: 4px;
+    left: 603px;
+}
+
+#r3-left {
+    top: 126px;
+    left: 706px;
+}
+
+#r3-up {
+    top: 81px;
+    left: 720px;
+}
+
+#r3-ethernet {
+    top: 141px;
+    left: 787px;
+}
+
+#s1 {
+    top: 270px;
+    left: 386px;
+}
+
+#s1 > input {
+    width: 58px;
+}
+
+#s2 {
+    top: 270px;
+    left: 664px;
+}
+
+#s2 > input {
+    width: 58px;
+}
+
+#pc0 {
+    top: 476px;
+    left: 128px;
+}
+
+#pc1 {
+    top: 476px;
+    left: 446px;
+}
+
+#pc2 {
+    top: 547px;
+    left: 219px;
+}
+
+#pc3 {
+    top: 547px;
+    left: 353px;
+}
+
+#pc4 {
+    top: 474px;
+    left: 655px;
+}
+
+#pc5 {
+    top: 543px;
+    left: 742px;
+}
+
+#pc6 {
+    top: 543px;
+    left: 876px;
+}
+
+#pc7 {
+    top: 473px;
+    left: 983px;
+}
+
+#go-btn {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#output {
+    border: solid 2px #000;
+    font-size: 16px;
+    width: 100%;
+}
