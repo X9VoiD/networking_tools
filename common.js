@@ -168,6 +168,7 @@ export function calculateSubnets(baseNetwork, inputs) {
 }
 
 function getRequiredHostBits(hosts) {
+    hosts += 2; // +2 for network and broadcast addresses
     let hostBits = 0;
     while (2 ** hostBits < hosts) {
         hostBits++;
