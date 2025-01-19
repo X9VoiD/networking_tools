@@ -31,7 +31,7 @@ export function startBtnOnClick() {
         let subnetElement = document.createElement('div');
         let subnetMask = prefixToMask(networkPrefix);
 
-        subnetElement.innerHTML = `${name} (${originalInput}):  ${network}/${networkPrefix} ${subnetMask}<br>`;
+        subnetElement.innerHTML = `${name} (${originalInput}):  ${network} ${subnetMask}<br>`;
 
         let firstHost = intToIp(ipToInt(network) + 1);
         let lastHost = intToIp(ipToInt(network) + (2 ** (32 - networkPrefix)) - 2);
