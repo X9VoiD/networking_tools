@@ -122,7 +122,7 @@ export function calculateSubnets(baseNetwork, inputs) {
             return {
                 name,
                 originalInput: input,
-                maxAddresses: maxAddresses
+                maxAddresses: maxAddresses - 2 // -2 for network and broadcast addresses
             };
         }
         else {
